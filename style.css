@@ -1,0 +1,43 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #9198e5;
+}
+
+.clock{
+    position: absolute;
+    top: 5rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.clock-hand{
+    margin: 0 5px;
+    position: absolute;
+    top: 10rem;
+    width: 10rem;
+    height: 3px;
+    transform-origin: 100%;
+    background-color: black;
+}
+
+.hr{
+    transform: rotate(90deg);
+}
+
+.min{
+    transform: rotate(60deg);
+    background-color: red;
+}
+
+.sec{
+    background-color: aquamarine;
+}
